@@ -1,0 +1,6 @@
+framework module Pods_flutterlib {
+  umbrella header "Pods-flutterlib-umbrella.h"
+
+  export *
+  module * { export * }
+}
