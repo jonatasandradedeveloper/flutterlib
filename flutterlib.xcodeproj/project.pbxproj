@@ -100,11 +100,11 @@
 			buildConfigurationList = E7B471C726CDA34100B652C3 /* Build configuration list for PBXNativeTarget "flutterlib" */;
 			buildPhases = (
 				6F1F785DBBAC873D645A3AC7 /* [CP] Check Pods Manifest.lock */,
-				0F7A0196715D89F50C6F7410 /* [CP-User] Run Flutter Build myflutter Script */,
+				1E7CC58B892965945284BAB5 /* [CP-User] Run Flutter Build myflutter Script */,
 				E7B471AF26CDA33E00B652C3 /* Sources */,
 				E7B471B026CDA33E00B652C3 /* Frameworks */,
 				E7B471B126CDA33E00B652C3 /* Resources */,
-				75F6E2CD167A7D96B98C50AB /* [CP] Embed Pods Frameworks */,
+				DF0B11B1D5316EBB5A8B764A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,7 +162,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0F7A0196715D89F50C6F7410 /* [CP-User] Run Flutter Build myflutter Script */ = {
+		1E7CC58B892965945284BAB5 /* [CP-User] Run Flutter Build myflutter Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -194,7 +194,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		75F6E2CD167A7D96B98C50AB /* [CP] Embed Pods Frameworks */ = {
+		DF0B11B1D5316EBB5A8B764A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
